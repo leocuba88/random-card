@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.heart h1 {
+  content: "";
+  font-size: 5rem;
+}
+.heart::before,
+.heart::after {
+  content: "\2665";
+}
+.heart::before {
+  position: absolute;
+  left: 1.5rem;
+}
+.heart,
+.diamonds {
+  color: red;
+}
+.diamonds h1 {
+  content: "";
+  font-size: 5rem;
+}
+.diamonds::before,
+.diamonds::after {
+  content: "\2666";
+}
+.diamonds::before {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.spades h1 {
+  content: "";
+  font-size: 5rem;
+}
+.spades::before,
+.spades::after {
+  content: "\2660";
+}
+.spades::before {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.clubs h1 {
+  content: "";
+  font-size: 5rem;
+}
+.clubs::before,
+.clubs::after {
+  content: "\2663";
+}
+.clubs::before {
+  position: absolute;
+  left: 1.5rem;
+}
