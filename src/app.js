@@ -19,9 +19,9 @@ window.onload = function() {
     "8",
     "9",
     "10",
-    "King",
-    "Queen",
-    "Ace"
+    "K",
+    "J",
+    "A"
   ];
   let cardSuits = ["heart", "spades", "clubs", "diamonds"];
   let randomCardNumber =
